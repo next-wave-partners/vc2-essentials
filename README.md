@@ -103,15 +103,6 @@ Premium is fully private with zero telemetry. Nothing leaves your machine.
 **[Subscribe at johncowan.io →](https://johncowan.io)**
 
 ---
-
-## Telemetry (Essentials only)
-
-The Claude Desktop plugin version of Essentials includes opt-in anonymized telemetry for community benchmarking. It is off by default and collects no personal data. Set `VC2_TELEMETRY=on` to opt in.
-
-The Python engines and prompts in this repo have no telemetry of any kind.
-
----
-
 ## About
 
 Created by [Next Wave Partners](https://nextwave.partners). Based on the book by John Cowan.
