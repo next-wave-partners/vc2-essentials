@@ -4,6 +4,8 @@ Free, open-source venture analysis tools from *[Venture Capital 2.0: Building, F
 
 **Works with any AI platform.** Use with ChatGPT, Claude, Gemini, Copilot, open-source models, or run standalone.
 
+**Now powered by the EPAC framework** — every scorecard passes through an Expert-Planner-Actor-Critic validation loop that checks for internal consistency, evidence quality, hallucination risk, and analytical rigor before returning results.
+
 ---
 
 ## What's Inside
@@ -28,9 +30,16 @@ python safer.py --scenario steady-growth-acquisition --output report.html
 python safer_monte_carlo.py --scenario all-scenarios
 ```
 
-### Scorecard Methodology
+### EPAC-Enhanced Scorecard
 
-The 10-dimension weighted scorecard for evaluating venture opportunities. Covers market size, customer urgency, competition, founder-market fit, timing, and six other dimensions with t-shirt sizing (S/M/L/XL/XXL) and critical pattern rules.
+The 10-dimension weighted scorecard for evaluating venture opportunities, now with EPAC (Expert-Planner-Actor-Critic) validation. Covers market size, customer urgency, competition, founder-market fit, timing, and six other dimensions with t-shirt sizing (S/M/L/XL/XXL) and critical pattern rules.
+
+The EPAC framework adds four phases to every scorecard:
+
+1. **Expert Capture** — Gathers your specification, restates assumptions, confirms scope
+2. **Planner** — Builds a structured analytical plan before any scoring begins
+3. **Actor** — Executes the plan: analyzes documents, conducts web research, scores dimensions
+4. **Critic** — Validates all outputs: internal consistency, evidence quality, hallucination detection, analytical rigor, completeness, and audit trail
 
 See [`methodology/scorecard.md`](methodology/scorecard.md) for the complete framework.
 
@@ -40,14 +49,13 @@ Pre-built prompts you can copy into any AI assistant:
 
 | Prompt | Purpose |
 |--------|---------|
-| [`score-opportunity`](prompts/score-opportunity.md) | Run the 10-dimension scorecard on a venture |
 | [`generate-safer`](prompts/generate-safer.md) | Generate a Safer term sheet with VREC provisions |
 | [`simulate-safer`](prompts/simulate-safer.md) | Model a Safer investment scenario |
 | [`simulate-fund`](prompts/simulate-fund.md) | Run Monte Carlo fund simulation |
 
 ### Claude Desktop Plugin
 
-If you use Claude Desktop, download the pre-built `.plugin` file from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases) for one-click installation with slash commands (`/score-opportunity`, `/generate-safer`, `/simulate-safer`, `/simulate-fund`).
+If you use Claude Desktop, download the pre-built `.plugin` file from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases) for one-click installation. The EPAC scorecard is available as a skill (just ask to "score an opportunity"), plus slash commands for `/generate-safer`, `/simulate-safer`, and `/simulate-fund`.
 
 ---
 
@@ -78,7 +86,13 @@ python safer_monte_carlo.py --scenario revenue-focused
 
 1. Download `vc2-essentials.plugin` from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases)
 2. Open Claude Desktop → Settings → Plugins → Install from file
-3. Type `/score-opportunity` to get started
+3. Ask "score an opportunity" or use `/generate-safer` to get started
+
+---
+
+## Privacy
+
+Fully private. Nothing leaves your machine.
 
 ---
 
@@ -98,16 +112,15 @@ VC 2.0 Essentials gives you powerful analytical tools. **[VC 2.0 Premium](https:
 | **Geographic Alpha** | 8-dimension weighted location scoring |
 | **Model Returns** | Portfolio-level return modeling with LP-ready reports |
 
-Premium is fully private with zero telemetry. Nothing leaves your machine.
-
 **[Subscribe at johncowan.io →](https://johncowan.io)**
 
 ---
+
 ## About
 
 Created by [Next Wave Partners](https://nextwave.partners). Based on the book by John Cowan.
 
-Financial engines by James Thomason, licensed under BSD terms (see [`engines/LICENSE`](engines/LICENSE)).
+EPAC framework by James Thomason. Financial engines by James Thomason, licensed under BSD terms (see [`engines/LICENSE`](engines/LICENSE)).
 
 ## License
 
