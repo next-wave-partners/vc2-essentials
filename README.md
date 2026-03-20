@@ -54,9 +54,17 @@ Pre-built prompts you can copy into any AI assistant:
 | [`simulate-safer`](prompts/simulate-safer.md) | Model a Safer investment scenario |
 | [`simulate-fund`](prompts/simulate-fund.md) | Run Monte Carlo fund simulation |
 
-### Claude Desktop Plugin
+### Claude Desktop Plugin (Cowork)
 
-If you use Claude Desktop, download the pre-built `.plugin` file from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases) for one-click installation with slash commands (`/score-opportunity`, `/generate-safer`, `/simulate-safer`, `/simulate-fund`).
+If you use Claude Desktop with Cowork, download the pre-built `.plugin` file from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases) and install it to get slash commands (`/score-opportunity`, `/generate-safer`, `/simulate-safer`, `/simulate-fund`).
+
+To install:
+1. Download `vc2-essentials.plugin` from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases)
+2. Open Claude Desktop and switch to the **Cowork** tab
+3. Click **Customize** in the left sidebar
+4. Upload the `.plugin` file
+
+The plugin is saved locally to your machine and works fully offline.
 
 ---
 
@@ -83,11 +91,12 @@ python safer.py --scenario steady-growth-acquisition --output report.html
 python safer_monte_carlo.py --scenario revenue-focused
 ```
 
-### Option 3: Claude Desktop plugin
+### Option 3: Claude Desktop plugin (Cowork)
 
 1. Download `vc2-essentials.plugin` from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases)
-2. Open Claude Desktop → Settings → Plugins → Install from file
-3. Type `/score-opportunity` to get started
+2. Open Claude Desktop and switch to **Cowork**
+3. Click **Customize** in the left sidebar and upload the `.plugin` file
+4. Type `/score-opportunity` to get started
 
 ---
 
