@@ -49,13 +49,14 @@ Pre-built prompts you can copy into any AI assistant:
 
 | Prompt | Purpose |
 |--------|---------|
+| [`score-opportunity`](prompts/score-opportunity.md) | Run the EPAC-enhanced 10-dimension scorecard on a venture |
 | [`generate-safer`](prompts/generate-safer.md) | Generate a Safer term sheet with VREC provisions |
 | [`simulate-safer`](prompts/simulate-safer.md) | Model a Safer investment scenario |
 | [`simulate-fund`](prompts/simulate-fund.md) | Run Monte Carlo fund simulation |
 
 ### Claude Desktop Plugin
 
-If you use Claude Desktop, download the pre-built `.plugin` file from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases) for one-click installation. The EPAC scorecard is available as a skill (just ask to "score an opportunity"), plus slash commands for `/generate-safer`, `/simulate-safer`, and `/simulate-fund`.
+If you use Claude Desktop, download the pre-built `.plugin` file from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases) for one-click installation with slash commands (`/score-opportunity`, `/generate-safer`, `/simulate-safer`, `/simulate-fund`).
 
 ---
 
@@ -86,7 +87,7 @@ python safer_monte_carlo.py --scenario revenue-focused
 
 1. Download `vc2-essentials.plugin` from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases)
 2. Open Claude Desktop → Settings → Plugins → Install from file
-3. Ask "score an opportunity" or use `/generate-safer` to get started
+3. Type `/score-opportunity` to get started
 
 ---
 
