@@ -41,8 +41,6 @@ The EPAC framework adds four phases to every scorecard:
 3. **Actor** — Executes the plan: analyzes documents, conducts web research, scores dimensions
 4. **Critic** — Validates all outputs: internal consistency, evidence quality, hallucination detection, analytical rigor, completeness, and audit trail
 
-See [`methodology/scorecard.md`](methodology/scorecard.md) for the complete framework.
-
 ### AI-Ready Prompts
 
 Pre-built prompts you can copy into any AI assistant:
