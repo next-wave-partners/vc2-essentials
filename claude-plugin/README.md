@@ -4,7 +4,7 @@ Pre-built `.plugin` file for one-click installation in Claude Desktop.
 
 ## Install
 
-1. Download `vc2-essentials.plugin` (or get the latest from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases))
+1. Download `vc2-essentials.plugin` 
 2. Open Claude Desktop
 3. Go to Settings → Plugins → Install from file
 4. Select the `.plugin` file
