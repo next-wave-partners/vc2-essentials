@@ -56,10 +56,10 @@ Pre-built prompts you can copy into any AI assistant:
 
 ### Claude Desktop Plugin (Cowork)
 
-If you use Claude Desktop with Cowork, download the pre-built `.plugin` file from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases) and install it to get slash commands (`/score-opportunity`, `/generate-safer`, `/simulate-safer`, `/simulate-fund`).
+If you use Claude Desktop with Cowork, download the pre-built `.plugin` file and install it to get slash commands (`/score-opportunity`, `/generate-safer`, `/simulate-safer`, `/simulate-fund`).
 
 To install:
-1. Download `vc2-essentials.plugin` from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases)
+1. Download `vc2-essentials.plugin` 
 2. Open Claude Desktop and switch to the **Cowork** tab
 3. Click **Customize** in the left sidebar
 4. Upload the `.plugin` file
@@ -93,7 +93,7 @@ python safer_monte_carlo.py --scenario revenue-focused
 
 ### Option 3: Claude Desktop plugin (Cowork)
 
-1. Download `vc2-essentials.plugin` from [Releases](https://github.com/nextwave-partners/vc2-essentials/releases)
+1. Download `vc2-essentials.plugin` 
 2. Open Claude Desktop and switch to **Cowork**
 3. Click **Customize** in the left sidebar and upload the `.plugin` file
 4. Type `/score-opportunity` to get started
