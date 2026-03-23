@@ -106,26 +106,6 @@ Fully private. Nothing leaves your machine.
 
 ---
 
-## Upgrade to VC 2.0 Premium
-
-VC 2.0 Essentials gives you powerful analytical tools. **[VC 2.0 Premium](https://johncowan.io)** gives you the complete venture studio operating system — available exclusively as a Claude Desktop plugin for annual subscribers.
-
-### What Premium adds
-
-| Capability | Description |
-|-----------|-------------|
-| **Thesis Architect** | Develop, validate, and refine studio investment theses |
-| **Capital Structurer** | Design fund vehicles, capital structures, and revenue-based finance |
-| **Opportunity Scout** | Timing models, structural readiness scoring, ILC framework, geographic alpha |
-| **Return Architect** | Predictable return models and anti-power-law portfolio design |
-| **Studio OS (Full)** | VREC governance, pipeline management, founder evaluation, decision logging, institutional learning |
-| **Geographic Alpha** | 8-dimension weighted location scoring |
-| **Model Returns** | Portfolio-level return modeling with LP-ready reports |
-
-**[Subscribe at johncowan.io →](https://johncowan.io)**
-
----
-
 ## About
 
 Created by [Next Wave Partners](https://nextwave.partners). Based on the book by John Cowan.
